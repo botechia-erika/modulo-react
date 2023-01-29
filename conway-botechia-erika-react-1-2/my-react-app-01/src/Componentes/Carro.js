@@ -5,14 +5,14 @@ export function Carro(props){
 
 
 return(
-<div class="cardsPage">
+
 <div class="card-container">
 <div class="card-flip">
 <div class="card front">
-  <img src={props.carro.imgCover} alt="produtos loja"/>
+  <img src={props.carro?.imgCover} alt="produtos loja"/>
 <div class="card-block" id="divC1front">
  <h4 class="card-title">
- {props.carro.name}
+ {props.carro?.name}
  </h4>
  </div>
 
@@ -25,20 +25,20 @@ return(
 </div>
 <div class="card-block">
 <h4 class="card-title">
-{props.carro.productType}
+{props.carro?.productType}
 </h4>
 <ul class="card-text">
 
 
 <li>
-{props.carro.category}
+{props.carro?.category}
 </li>
 <li>
-{props.carro.priceBase} </li>
-<li>{props.carro.discountPercent}
+{props.carro?.priceBase} </li>
+<li>{props.carro?.discountPercent}
 </li>
 <li>
-{props.carro.priceClient} 
+{props.carro?.priceClient}
 </li>
 
 </ul>
@@ -49,7 +49,7 @@ return(
 </div>
 </div>
 
-</div>
+
 
 
 );

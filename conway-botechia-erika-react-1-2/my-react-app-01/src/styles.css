@@ -195,7 +195,7 @@ flex-flow: column wrap;
 width: 95%;
 
 margin-left: 2.5%;
-height: 44vh;
+height: 64vh;
 align-items: center;
 justify-content: center;
 background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.wallpapersafari.com%2Fdesktop%2F1600%2F900%2F37%2F1%2Fejotvq.jpg&f=1&nofb=1&ipt=b41f38d1adfeab94cae2a1f82614a05fe7dad8194f6eeafc84302670dddb26d3&ipo=images");
@@ -222,9 +222,9 @@ align-items: center;
 justify-content: center;
 text-align: center;
 font-size: 1.3rem;
-margin: 30px auto;
+margin: 40px auto;
 margin-left:0;
-justify-content: center;
+
 }
 
 /*
